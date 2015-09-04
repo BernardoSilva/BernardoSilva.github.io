@@ -1,0 +1,49 @@
+# Site settings
+languages: ["en", "pt"]
+title: Bernardo Silva
+email: job@bernardosilva.com
+url: https://BernardoSilva.github.io
+description: "Bernardo Silva is a web enthusiast since 2007. A software engineer that loves chalenges."
+skills: "Web Developer - Agile Evangelist - Team Leader"
+
+# Contact form: comment the line below if you want to stick with the default PHP contact form
+contact: static
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary: 18bc9c #80B3FF
+  primary-rgb: "24,288,156" #"128,179,255"
+  secondary: 2c3e50 #FD6E8A
+  secondary-dark: 233140 #A2122F
+
+# Footer settings
+footer:
+  copyright: Bernardo Silva
+  location: Location
+  social: Around the Web
+  credits: Credits
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: http://twitter.com/BernardoVSilva
+  - title: facebook
+    url: https://www.facebook.com/Bernardo.Book
+  - title: stack-overflow
+    url: http://stackoverflow.com/users/1150700/bernardosilva
+  - title: bitbucket
+    url: https://bitbucket.org/BernardoSilva
+  - title: github
+    url: http://github.com/BernardoSilva
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: Somewhere,
+  - line: in the world.
+
+# Credits content
+credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
+
+# Build settings
+markdown: kramdown
+permalink: pretty

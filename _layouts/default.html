@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
+
+    {% include head.html %}
+    <body>
+    {% include header.html %}
+
+    <div class="container sections-wrapper">
+        <div class="row">
+            <div class="primary col-md-8 col-sm-12 col-xs-12">
+                <!--About Me-->
+                {% include about_me.html %}
+
+                <!--Latest Projects-->
+
+                <!--Other Projects-->
+
+                <!--Work Experience-->
+
+                <!--GitHub Activity-->
+                {% include github_activity.html %}
+
+            </div><!--//primary-->
+            <div class="secondary col-md-4 col-sm-12 col-xs-12">
+                <!--Basic Information-->
+                {% include sidebar/basic_information.html %}
+
+                <!--Skills-->
+                {% include sidebar/skills.html %}
+
+                <!--Testimonials-->
+
+                <!--Education-->
+
+                <!--Languages-->
+                {% include sidebar/languages.html %}
+
+                <!--Latest blog posts-->
+
+                <!--Coding Music-->
+
+                <!--Conferences & groups-->
+
+            </div><!--//secondary-->
+        </div><!--//row-->
+    </div><!--//masonry-->
+
+
+
+    {% include footer.html %}
+    {% include js.html %}
+    </body>
+</html>
