@@ -1,6 +1,8 @@
 bernardosilva.com
 =================
 
+[![Build Status](https://travis-ci.org/BernardoSilva/BernardoSilva.github.io.svg?branch=master)](https://travis-ci.org/BernardoSilva/BernardoSilva.github.io)
+
 This is the project of [my personal website](http://www.bernardosilva.com).
 
 ## Dependencies
